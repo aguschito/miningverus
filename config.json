@@ -1,0 +1,31 @@
+{
+    "pools":
+        [{
+            "name": "SGVIPOR",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "CNVIPOR",
+            "url": "stratum+tcp://cn.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "SGVIPOR",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 1
+        }],
+
+    "user": "RSJi5a7BgHL5RwHDXRuSA7F4qyzAAFZNGk.worker",
+    "pass": "x",
+    "algo": "verus",
+    "threads": 7,
+    "cpu-priority": 1,
+    "cpu-affinity": -1,
+    "retry-pause": 10,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
